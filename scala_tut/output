@@ -1,0 +1,14 @@
+[warn] No sbt.version set in project/build.properties, base directory: /Users/jadon/Documents/advanced-analytics/scala_tut
+[info] welcome to sbt 1.8.0 (Homebrew Java 19.0.1)
+[info] set current project to scala_tut (in build file:/Users/jadon/Documents/advanced-analytics/scala_tut/)
+[0J
+Multiple main classes detected. Select one to run:
+ [1] Hello
+ [2] Hello2
+ [3] HelloYou
+ [4] helloInteractive
+
+Enter number: 1
+[info] running Hello 
+Hello, world
+[success] Total time: 12 s, completed Dec 6, 2022, 11:49:48 a.m.

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "locate-java-home": "^1.1.2"
+  }
+}
