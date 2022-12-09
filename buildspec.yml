@@ -1,0 +1,16 @@
+version: 0.2
+
+env:
+  variables:
+    isTrue: "true"
+  exported-variables:
+    isExported: "false"
+phases:
+  build:
+    commands:
+      - sbt package
+artifacts:
+  files:
+    - /scala_tut/target/scala-2.12/scala_tut_2.12-0.1.0-SNAPSHOT.jar
+  name:
+    - hello_world_pkg-$(date +%Y-%m-%d %H:%M:%S)
