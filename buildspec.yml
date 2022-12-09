@@ -4,7 +4,7 @@ env:
   variables:
     isTrue: "true"
   exported-variables:
-    isExported: "false"
+    - isExported: "false"
 phases:
   build:
     commands:
