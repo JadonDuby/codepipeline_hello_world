@@ -12,3 +12,5 @@ artifacts:
     - 'scala_tut/target/scala-2.12/*.jar'
   name:
     hello_world_pkg-$(date +%Y-%m-%d %H:%M:%S)
+  discard-paths:
+    yes
