@@ -3,8 +3,6 @@ version: 0.2
 env:
   variables:
     isTrue: "true"
-  exported-variables:
-    - isExported: "false"
 phases:
   build:
     commands:
