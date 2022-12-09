@@ -9,6 +9,6 @@ phases:
       - sbt package
 artifacts:
   files:
-    - 'codepipeline_hello_world/scala_tut/target/scala-2.12/scala_tut_2.12-0.1.0-SNAPSHOT.jar'
+    - 'scala_tut/target/scala-2.12/*.jar'
   name:
     hello_world_pkg-$(date +%Y-%m-%d %H:%M:%S)
